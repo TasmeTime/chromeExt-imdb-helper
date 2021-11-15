@@ -16,7 +16,7 @@
     {
       "matches": ["https://*.imdb.com/title/*"],
       "css": ["style.css"],
-      "js": ["content_script.js"]
+      "js": ["imdb_helper.js"]
     }
   ],
   "icons": {

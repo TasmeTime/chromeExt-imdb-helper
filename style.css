@@ -26,12 +26,12 @@
   column-gap: 0.5rem;
 }
 
-#tt-form {
+#tt_form {
   margin-top: 0.5rem;
   flex: 1;
 }
 
-#tt-dl_btn {
+#tt_dl_btn {
   cursor: pointer;
   width: 100%;
   border: none;
@@ -42,7 +42,7 @@
   border-radius: 4px;
 }
 
-#tt-dl_btn:focus {
+#tt_dl_btn:focus {
   outline: none;
 }
 

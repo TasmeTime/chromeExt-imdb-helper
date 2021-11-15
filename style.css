@@ -1,0 +1,88 @@
+/* 
+  font-family: 'Baloo 2', cursive;
+  font-family: 'Monoton', cursive;
+*/
+
+.tt-html {
+  background: #212121;
+}
+
+.tt-body {
+  margin-bottom: 1.8rem !important;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  width: 50%;
+  min-width: 345px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Baloo 2", cursive;
+}
+
+#tt-btn-container {
+  display: flex;
+  column-gap: 0.5rem;
+}
+
+#tt-form {
+  margin-top: 0.5rem;
+  flex: 1;
+}
+
+#tt-dl_btn {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background-color: #03a9f4;
+  color: white;
+  padding: 0.375rem 1rem 0.375rem 0.75rem;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+#tt-dl_btn:focus {
+  outline: none;
+}
+
+.tt-title {
+  font-family: "Monoton", cursive;
+  font-size: 2.5rem;
+  font-weight: lighter;
+  color: #f5c518;
+  margin-bottom: 0;
+}
+
+.tt-author {
+  margin-top: 0;
+  color: #c1c1c1;
+  font-weight: normal;
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+}
+.tt-social-title {
+  color: #03a9f4;
+  font-weight: bold;
+}
+.tt-social {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  font-size: 1.3rem;
+  align-items: center;
+  column-gap: 0.5rem;
+  color: white;
+}
+.tt-social-icon {
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  color: #212121;
+
+  font-size: 1.8rem;
+  background-color: white;
+}

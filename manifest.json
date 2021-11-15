@@ -1,0 +1,30 @@
+{
+  "name": "IMDB Helper",
+  "description": "Helps your needs with imdb! Developed by @TasmeTime https:\\\\m-azad.ir",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["scripting"],
+  "action": {
+    "default_popup": "pop_up.html",
+    "default_icon": {
+      "16": "./icon/16x16.png",
+      "48": "./icon/48x48.png",
+      "128": "./icon/128x128.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*.imdb.com/title/*"],
+      "css": ["style.css"],
+      "js": ["content_script.js"]
+    }
+  ],
+  "icons": {
+    "16": "./icon/16x16.png",
+    "48": "./icon/48x48.png",
+    "128": "./icon/128x128.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
